@@ -26,8 +26,7 @@ const rgbeLoader = new RGBELoader()
 /**
  * Environment map
  */
-rgbeLoader.load('/spruit_sunrise.hdr', (environmentMap) =>
-{
+rgbeLoader.load('/spruit_sunrise.hdr', (environmentMap) => {
     environmentMap.mapping = THREE.EquirectangularReflectionMapping
 
     scene.background = environmentMap
@@ -165,8 +164,7 @@ const sizes = {
     pixelRatio: Math.min(window.devicePixelRatio, 2)
 }
 
-window.addEventListener('resize', () =>
-{
+window.addEventListener('resize', () => {
     // Update sizes
     sizes.width = window.innerWidth
     sizes.height = window.innerHeight
@@ -212,8 +210,7 @@ renderer.setPixelRatio(sizes.pixelRatio)
  */
 const clock = new THREE.Clock()
 
-const tick = () =>
-{
+const tick = () => {
     const elapsedTime = clock.getElapsedTime()
 
     // Uniforms
