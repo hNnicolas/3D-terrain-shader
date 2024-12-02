@@ -1,6 +1,6 @@
-# 🌄 Terrain en 3D - Environnement Interactif et Dynamique
+# 3D Terrain Shader 🌄 
 
-Bienvenue sur **Terrain en 3D**, un projet interactif qui exploite les dernières technologies pour générer un paysage naturel dynamique. Ce terrain immersif vous permet de manipuler des éléments comme les montagnes, l'eau, et les dimensions globales à l'aide d'un panneau de contrôle personnalisable. Grâce à des shaders **GLSL** et des algorithmes procéduraux, ce projet offre un rendu visuel époustouflant et entièrement interactif.
+Bienvenue sur **3D Terrain Shader**, un projet interactif qui exploite les dernières technologies pour générer un paysage naturel dynamique. Ce terrain immersif vous permet de manipuler des éléments comme les montagnes, l'eau, et les dimensions globales à l'aide d'un panneau de contrôle personnalisable. Grâce à des shaders **GLSL** et des algorithmes procéduraux, ce projet offre un rendu visuel époustouflant et entièrement interactif.
 
 ---
 
@@ -30,25 +30,18 @@ Bienvenue sur **Terrain en 3D**, un projet interactif qui exploite les dernière
 
 ---
 
-## 🛠️ Technologies Utilisées
+## 🛠️ **Technologies Utilisées**
 
-### Frontend
-- **HTML5**, **CSS3**, **JavaScript (ES6+)**
-- **Vite** : Build rapide pour un développement fluide.
+| Technologie              | Description                                                                                       | Icône                                                                              |
+|--------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| **JavaScript (ES6+)**    | Langage de programmation pour les interactions dynamiques.                                        | ![JavaScript](https://img.icons8.com/ios-filled/50/000000/javascript.png)          |
+| **Vite**                 | Build rapide pour optimiser le développement avec un serveur performant.                          | <img src="https://vitejs.dev/logo.svg" width="50" />                               |
+| **WebGL**                | API graphique permettant des rendus 3D interactifs dans le navigateur.                            | ![WebGL](https://img.icons8.com/ios-filled/50/000000/webgl.png)                    |
+| **Three.js**             | Bibliothèque JavaScript facilitant la gestion des scènes 3D (caméras, lumières, matériaux, etc.). | ![Three.js](https://threejs.org/favicon.ico)                                       |
+| **GLSL (Shaders)**       | Shaders personnalisés pour simuler des vagues, des reflets et des effets atmosphériques.          | ![GLSL](https://img.icons8.com/ios-filled/50/000000/code.png)                      |
+| **Blender**              | Logiciel de modélisation 3D pour la création du modèle de casque.                                 | <img src="https://www.blender.org/favicon.ico" width="50" />                       |
+| **Perlin Noise**         | Algorithme procédural pour générer des paysages naturels et organiques.| <img src="https://github.com/hNnicolas/raging-sea-project/raw/main/3dperlinnoise-variant2.jpeg" width="50" /> |
 
-### Rendu 3D
-- **WebGL** : API pour le rendu graphique 3D dans le navigateur.
-- **Three.js** : Simplification de la gestion des caméras, lumières, matériaux, et animations.
-- **GLSL (Shaders personnalisés)** :
-  - Simulation des vagues et des reflets dynamiques pour l’eau.
-  - Effets atmosphériques (brouillard, ombres douces).
-  - Transitions fluides entre les textures des reliefs.
-
-### Génération procédurale
-- **Perlin Noise** : Algorithme utilisé pour générer des paysages naturels et organiques.
-
-### Interface utilisateur
-- **Dat.GUI** ou panneau de contrôle personnalisé : Permet à l’utilisateur de modifier les paramètres en temps réel.
 
 ---
 
@@ -59,15 +52,20 @@ Bienvenue sur **Terrain en 3D**, un projet interactif qui exploite les dernière
 - **Node.js** (version 16 ou supérieure) : [Télécharger Node.js](https://nodejs.org/)
 - Un gestionnaire de paquets (npm, inclus avec Node.js).
 
-### Étapes d'installation et d'exécution
 
-Copiez-collez les commandes suivantes dans votre terminal pour configurer et lancer le projet :
+## 📚 **Installation**  
 
-```bash
-# Télécharger le repository
+1. **Téléchargez le projet** :
+   
+   Ou clonez ce dépôt sur votre machine locale.
+   ```bash
+   git clone https://github.com/votre-utilisateur/fish-ocean-project.git
+2. **Installez les dépendances** :  
+   Ouvrez un terminal dans le répertoire du projet et exécutez :  
+   ```bash
+   npm install
 
-# Installer les dépendances
-npm install
-
-# Lancer le serveur local
-npm run dev
+3. **Lancez le projet** :
+   Ouvrez un terminal dans le répertoire du projet et exécutez :
+   ```bash
+   npm run dev
