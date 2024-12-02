@@ -57,9 +57,6 @@ Bienvenue sur **3D Terrain Shader**, un projet interactif qui exploite les derni
 
 1. **Téléchargez le projet** :
    
-   Ou clonez ce dépôt sur votre machine locale.
-   ```bash
-   git clone https://github.com/votre-utilisateur/fish-ocean-project.git
 2. **Installez les dépendances** :  
    Ouvrez un terminal dans le répertoire du projet et exécutez :  
    ```bash
